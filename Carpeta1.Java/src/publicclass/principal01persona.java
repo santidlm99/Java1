@@ -1,5 +1,5 @@
 package publicclass;
-public class principal01 {
+public class principal01persona {
 
 	public static void main(String[] args) {
 		
