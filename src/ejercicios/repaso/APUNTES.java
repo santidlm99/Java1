@@ -33,7 +33,7 @@ public class APUNTES {
 //Array;es una lista de personas y lleva corchetes > persona[] mi lista = new persona[] {p1,p2}
 //Private double > Getters and Setters > Constructor
 //bucle while para recorrerlo > while (i<lista.length)
-//guardar >git add .   git commit -m "h"     git push     
+//guardar >git add .   git commit -m "h"     git push origin master  
 
 	}
 }
