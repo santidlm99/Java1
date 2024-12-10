@@ -3,7 +3,7 @@ package ejercicios.principales;
 
 import java.util.Scanner;
 
-public class principal006 {
+public class principal006Porcent {
 
 	/**
 	 * @param args

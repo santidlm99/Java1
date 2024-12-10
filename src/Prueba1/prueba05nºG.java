@@ -1,6 +1,6 @@
 package Prueba1;
 
-public class prueba05 {
+public class prueba05nºG {
 
  
     

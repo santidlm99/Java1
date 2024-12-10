@@ -1,6 +1,6 @@
 package Prueba1;
 
-public class prueba04 {
+public class prueba04cadena {
 
     public static void main(String[] args) {
         

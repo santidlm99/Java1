@@ -1,11 +1,9 @@
 package ejercicios.principales;
 import java.util.Scanner;
 
-public class principal007 {
+public class principal007nota {
 
 	public static void main(String[] args) {
-		// numeros enteros
-		
 		
 		try(Scanner sc= new Scanner(System.in)) {
 		

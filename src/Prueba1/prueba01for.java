@@ -1,6 +1,6 @@
 package Prueba1;
 
-public class prueba01 {
+public class prueba01for {
 
 	public static void main(String[] args) {
 

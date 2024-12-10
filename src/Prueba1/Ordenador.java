@@ -2,13 +2,23 @@ package Prueba1;
 
 public class Ordenador {
 
-    Ordenador Ordenador = new Ordenador();
 
-    System.out.println+ Ordenador.estaEncendido();
+    private boolean encendido;
 
-    miOrdenador.encender();
-    System.out.println+ Ordenador.estaEncendido();
+    public boolean estaEncendido() {
+        return encendido;
+    }
 
-    miOrdenador.apagar();
-    System.out.println+Ordenador.estaEncendido();
+    public void encender() {
+        if(encendido!=true)
+        encendido=true;
+    }   
+    public void apagar() {
+        if(encendido!=true)
+        encendido=false;
+    }
+
+    public Ordenador(boolean encendido) {
+        this.encendido = encendido;
+    }
 }

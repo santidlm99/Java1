@@ -1,7 +1,7 @@
 package ejercicios.principales;
 import java.util.Scanner;
 
-public class principal008 {
+public class principal008Metervalor {
 
 	public static void main(String[] args) {
 		// decimales

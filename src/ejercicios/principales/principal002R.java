@@ -1,6 +1,6 @@
 package ejercicios.principales;
 
-public class principal002 {
+public class principal002R {
 
 	public static void main(String[] args) {
 
