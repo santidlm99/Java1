@@ -1,6 +1,6 @@
 package ejercicios.principales;
 
-public class principal018 {
+public class principal018Sumatodos {
 
 	public static void main(String[] args) {  
 		
@@ -15,6 +15,3 @@ public class principal018 {
 		}
 		
 	}	
-							
-
-	

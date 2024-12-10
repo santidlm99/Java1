@@ -1,7 +1,7 @@
 package ejercicios.principales;
  import java.util.Scanner;
 
-public class principal013 {
+public class principal013Clase {
 
 	public static void main(String[] args) {
 		

@@ -1,7 +1,7 @@
 package ejercicios.principales;
  import java.util.Scanner;
 
-public class principal022 {
+public class principal022FinxNum {
 
 	public static void main(String[] args) {   
 			

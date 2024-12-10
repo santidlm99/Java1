@@ -1,6 +1,6 @@
 package ejercicios.principales;
 
-public class principal016 {
+public class principal016repetirxveces {
 
 	public static void main(String[] args) {
 		
@@ -12,10 +12,6 @@ public class principal016 {
 		//	i++; i=i+1;
 			i=i+1;
 			
-		
 		}
-		
-	}	
-							
+	}						
 }
-	

@@ -1,7 +1,7 @@
 package ejercicios.principales;
  import java.util.Scanner;
 
-public class principal009 {
+public class principal009Inf {
 
 	public static void main(String[] args) {
 		
@@ -13,11 +13,7 @@ public class principal009 {
 			
 		System.out.println("destacas en la clase con claridad");
 	
-		}
-
-		
-        }
-		
+			}	
+     	}
 	}
-
 }

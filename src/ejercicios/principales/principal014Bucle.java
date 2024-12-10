@@ -1,6 +1,6 @@
 package ejercicios.principales;
 
-public class principal014 {
+public class principal014Bucle {
 
 	public static void main(String[] args) {
 		

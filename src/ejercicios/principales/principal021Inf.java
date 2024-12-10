@@ -1,7 +1,7 @@
 package ejercicios.principales;
  import java.util.Scanner;
 
-public class principal021 {
+public class principal021Inf {
 
 	public static void main(String[] args) {   
 	
