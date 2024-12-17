@@ -1,5 +1,5 @@
 
-package es.curso;
+package ejercicios.principales;
 
 public class principal04Inf
  {

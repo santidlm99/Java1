@@ -1,28 +1,21 @@
-package ejercicios.Composicion.Turista;
+	package ejercicios.Composicion.Turista;
 
-public class principal01 {
+	public class Principal01 {
 
-  // La clase turista y la clase maleta: el turista tiene nombre y 
-  // las maletas tienen modelo y peso, un turista puede llevar dos maletas
-  // cuanto peso soporta el turista
-	public static void main(String[] args) {
-		
-		Maleta m1= new Maleta("adidas",5);
-		System.out.println(m1.getModelo());
-		System.out.println(m1.getPeso());
-		
-		Maleta m2= new Maleta("nike",10);
-		System.out.println(m2.getModelo());
-		System.out.println(m2.getPeso());
-		
-		
-		Turista o= new Turista("nombre");
-		o.setMaleta1(m1);
-		o.setMaleta2(m2);
+		public static void main(String[] args) {
 
-        System.out.println(o.pesototal());
+			Maletas m1 = new Maletas("ibm",15);
+			Maletas m2 = new Maletas("lg",13);
+			Turista t1 = new Turista("Carlos");
+			t1.setMaleta1(m1);
+			t1.setMaleta2(m2);
+			//System.out.println(t1.pesototal());
+			//System.out.println(t1.pesototal1(m1.getPeso(),m2.getPeso()));
+			System.out.println(t1.pesototal2());
+			System.out.println(t1.pesototal2(1));
+			System.out.println(t1.pesototal2("ligera"));
 		
-
+		}
+	
 	}
-
-}
+	

@@ -1,17 +1,29 @@
-package ejercicios.Composicion.Turistarico;
+	package ejercicios.Composicion.Turista;
+	
+		import java.util.ArrayList;
 
-public class Turistaricoo {
-
-    Private String nombre;
-    publico String getNombre(){
-        retur nombre;
-    }
-
-    public void getNombre (String nombre)}
-    This.nombre = hombre;
-
-    }
-
-    public maletas getMaletas(){
-        return maleta;
-}
+		public class TuristaRico extends Superturista {
+		
+			private ArrayList<Maletas> maletas = new ArrayList<Maletas>();
+		
+			public ArrayList<Maletas> getMaletas() {
+				return maletas;
+			}
+		
+			public void setMaletas(ArrayList<Maletas> maletas) {
+				this.maletas = maletas;
+			}
+		
+			public TuristaRico(String nombre) {
+				super();
+				this.setNombre(nombre);
+			}
+		
+			public void addMaletas(Maletas maletita) {
+				
+				maletas.add(maletita);
+				
+			}
+			
+		}
+	

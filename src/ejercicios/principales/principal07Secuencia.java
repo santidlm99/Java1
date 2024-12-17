@@ -1,6 +1,6 @@
-package es.curso;
+package ejercicios.principales;
 
-public class principal06Inf {
+public class principal07Secuencia {
 	public static void main(String[] args) {
 	
 	int[] lista= new int[] {2,5,6,7};

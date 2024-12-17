@@ -1,4 +1,4 @@
-package es.curso;
+package ejercicios.principales;
 
 public class principal05sumasecuencia {
 	public static void main(String[] args) {
