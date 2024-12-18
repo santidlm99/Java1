@@ -1,5 +1,5 @@
 
-package Basededatos;
+package Basededatos.Factura;
 
 public class Principal03 {
 

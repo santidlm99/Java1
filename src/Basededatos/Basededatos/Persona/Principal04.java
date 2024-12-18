@@ -1,5 +1,5 @@
 
-package Basededatos;
+package Basededatos.Persona;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

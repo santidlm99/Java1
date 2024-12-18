@@ -1,5 +1,5 @@
 
-package Basededatos;
+package Basededatos.Persona;
 
 import java.io.IOException;
 import java.nio.file.Files;

@@ -1,15 +1,16 @@
-package Basededatos;
+
+package Basededatos.Factura;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Principal02 {
+public class Principal04 {
 		
-		   static final String DB_URL = "jdbc:mysql://localhost:3306/cie1";
+		   static final String DB_URL = "jdbc:mysql://localhost:8889/cie1";
 		   static final String USER = "root";
-		   static final String PASS = "";
+		   static final String PASS = "root";
 		   static final String QUERY = "SELECT * from Personas";
 
 		   public static void main(String[] args) {
@@ -30,7 +31,7 @@ public class Principal02 {
 				
 				  
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block 
+				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} 
 		   }

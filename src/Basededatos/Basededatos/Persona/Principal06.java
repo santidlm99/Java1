@@ -1,7 +1,5 @@
 
-package Basededatos;
-
-
+package Basededatos.Persona;
 
 public class Principal06 {
 

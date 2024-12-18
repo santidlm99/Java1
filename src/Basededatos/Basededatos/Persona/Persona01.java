@@ -1,4 +1,4 @@
-package Basededatos;
+package Basededatos.Persona;
 
 public class Persona01 {
     

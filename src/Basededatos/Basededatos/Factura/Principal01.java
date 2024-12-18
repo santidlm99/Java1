@@ -1,4 +1,4 @@
-package Basededatos;
+package Basededatos.Factura;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -11,7 +11,7 @@ public class Principal01 {
 		   static final String DB_URL = "jdbc:mysql://localhost:3306/cie1";
 		   static final String USER = "root";
 		   static final String PASS = "";
-		   static final String QUERY = "SELECT * from Personas";
+		   static final String QUERY = "SELECT * from Facturas";
 
 		   public static void main(String[] args) {
 		      // Open a connection
@@ -22,9 +22,9 @@ public class Principal01 {
 				   {		      
 				     while(conjuntoResultados.next()){
 				        //Display values
-				        System.out.print(conjuntoResultados.getString("nombre"));
-				        System.out.print(conjuntoResultados.getString("apellidos"));
-				        System.out.print(conjuntoResultados.getInt("edad"));
+				        System.out.print(conjuntoResultados.getInt("numero"));
+				        System.out.print(conjuntoResultados.getString("concepto"));
+				        System.out.print(conjuntoResultados.getDouble("importe"));
 				       
 				     }
 				  }

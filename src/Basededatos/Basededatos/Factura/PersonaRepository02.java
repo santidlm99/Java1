@@ -1,9 +1,11 @@
-package Basededatos;
+package Basededatos.Factura;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+
+import Basededatos.Persona.Persona01;
 
 public class PersonaRepository02{
 
