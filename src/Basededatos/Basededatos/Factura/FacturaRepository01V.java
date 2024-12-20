@@ -2,10 +2,11 @@ package Basededatos.Factura;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class FacturaRepository01 {
+public class FacturaRepository01V {
 
 	static final String DB_URL = "jdbc:mysql://localhost:3306/cie";
 	static final String USER = "root";
@@ -43,6 +44,24 @@ public class FacturaRepository01 {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	} 
+	}
+	public ResultSet buscarTodos() {
+
+		ResultSet rs=null;
+		try {
+			//conecto a la base de datos
+			Connection conexion = DriverManager.getConnection(DB_URL, USER, PASS);
+			//preparo la sentencia
+			Statement sentencia = conexion.createStatement();
+			//ejecuto
+			rs = sentencia.executeQuery("select * from Facturas");
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return rs;
 	}
 
 }

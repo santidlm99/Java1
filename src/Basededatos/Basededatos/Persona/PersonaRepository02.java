@@ -2,6 +2,7 @@ package Basededatos.Persona;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -48,6 +49,25 @@ public class PersonaRepository02{
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	} 
+	}
+	public ResultSet buscarTodos() {
+
+		ResultSet rs=null;
+		try {
+			//conecto a la base de datos
+			Connection conexion = DriverManager.getConnection(DB_URL, USER, PASS);
+			//preparo la sentencia
+			Statement sentencia = conexion.createStatement();
+			//ejecuto
+			rs = sentencia.executeQuery("select * from Personas");
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return rs;
+		
 	}
 
 }
